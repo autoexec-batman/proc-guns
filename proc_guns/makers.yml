@@ -1,0 +1,91 @@
+-
+ name: Antilles
+ qualities: {
+  bad: Lumbering,
+  normal: Stiff, 
+  good: Lubed, 
+  great: Slick, 
+  super: Sleek
+ }
+ modifiers: {
+  damage: 0.90,
+  mag_size: 1.00,
+  fire_rate: 1.10,
+  reload_time: 0.90
+ }
+-
+ name: Beus
+ qualities: {
+  bad: Limp,
+  normal: Weak, 
+  good: Functional, 
+  great: Strong, 
+  super: Ripped
+ }
+  modifiers: {
+   damage: 1.10,
+   mag_size: 0.90,
+   fire_rate: 1.00
+   reload_time: 1.10
+ }
+
+-
+ name: Mishak
+ qualities: {
+  bad: Sleepy,
+  normal: Mild,
+  good: Saucy,
+  great: Angry,
+  super: Furious
+ }
+ modifiers: {
+  damage: 0.80,
+  mag_size: 1.00,
+  fire_rate: 1.20,
+  reload_time: 1.00
+ }
+-
+ name: Olympion
+ qualities: {
+  bad: Rough,
+  normal: Engineered,
+  good: Polished,
+  great: Re-Engineered,
+  super: Perfected
+ }
+ modifiers: {
+  damage: 1.20,
+  mag_size: 1.00,
+  fire_rate: 0.80,
+  reload_time: 1.00
+ }
+-
+name: Patkraft
+ qualities: {
+  bad: Janky,
+  normal: Stop-Gap,
+  good: Production-Ready,
+  great: Very Clever,
+  super: Elegant
+ }
+ modifiers: {
+  damage: 1.00,
+  mag_size: 0.70,
+  fire_rate: 1.00,
+  reload_time: 0.70
+ } 
+-
+ name: Syndex
+ qualities: {
+  bad: Wackass,
+  normal: Boring,
+  good: Dope,
+  great: Excellent,
+  super: Gnarly
+ }
+ modifiers: {
+  damage: 1.00,
+  mag_size: 1.30,
+  fire_rate: 1.30,
+  reload_time: 1.00
+ } 
