@@ -22,11 +22,11 @@
   great: Strong, 
   super: Ripped
  }
-  modifiers: {
-   damage: 1.10,
-   mag_size: 0.90,
-   fire_rate: 1.00
-   reload_time: 1.10
+ modifiers: {
+  damage: 1.10,
+  mag_size: 0.90,
+  fire_rate: 1.00
+  reload_time: 1.10
  }
 
 -
