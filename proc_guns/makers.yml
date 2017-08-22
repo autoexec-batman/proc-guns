@@ -25,7 +25,7 @@
  modifiers: {
   damage: 1.10,
   mag_size: 0.90,
-  fire_rate: 1.00
+  fire_rate: 1.00,
   reload_time: 1.10
  }
 
@@ -60,7 +60,7 @@
   reload_time: 1.00
  }
 -
-name: Patkraft
+ name: Patkraft
  qualities: {
   bad: Janky,
   normal: Stop-Gap,
