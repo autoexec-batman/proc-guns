@@ -10,10 +10,8 @@ BASE_RELOAD_SPEED = 3.0 #seconds per reload
 
 makers = yaml.load(open("makers.yml"))
 
-random.seed()
-manufacturer_id = (random.randint(0,len(makers) -1))
-manufacturer = makers[manufacturer_id]
-quality_id = enums.Quality(random.randint(1,5)).name
+manufacturer = random.choice(makers)
+quality_id = random.choice(list(enums.Quality)).name
 
 chome = Gun(BASE_BULLET_DAMAGE, BASE_MAGAZINE_SIZE, BASE_FIRE_RATE, BASE_RELOAD_SPEED, manufacturer)
 
