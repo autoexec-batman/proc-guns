@@ -12,12 +12,13 @@ makers = yaml.load(open("makers.yml"))
 guntypes = yaml.load(open("guntypes.yml"))
 
 manufacturer = random.choice(makers)
+guntype = random.choice(guntypes)
 quality_id = random.choice(list(enums.Quality)).name
 
-chome = Gun(BASE_BULLET_DAMAGE, BASE_MAGAZINE_SIZE, BASE_FIRE_RATE, BASE_RELOAD_TIME, manufacturer)
+chome = Gun(guntype, manufacturer)
+display_name = "{0} {1} {2}".format((chome.manufacturer["qualities"][quality_id]), chome.manufacturer["name"], chome.guntype["name"])
 
-print ("Selected Manufacturer: ", chome.manufacturer["name"])
-print ("Selected Quality: ", chome.manufacturer["qualities"][quality_id])
+print (display_name)
 print ("Damage per bullet: ", chome.damage)
 print ("Bullets per magazine: ", chome.magazine_size)
 print ("Bullets fired per second: ", chome.fire_rate)
