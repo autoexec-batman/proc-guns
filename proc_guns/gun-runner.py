@@ -3,11 +3,6 @@ import random
 import enums
 import yaml
 
-BASE_BULLET_DAMAGE = 10 #per bullet
-BASE_MAGAZINE_SIZE = 30
-BASE_FIRE_RATE = 2.0 #bullets per second
-BASE_RELOAD_TIME = 3.0 #seconds per reload
-
 makers = yaml.load(open("makers.yml"))
 guntypes = yaml.load(open("guntypes.yml"))
 
