@@ -1,6 +1,5 @@
 from gun import Gun
 import random
-import enums
 import yaml
 
 makers = yaml.load(open("makers.yml"))
