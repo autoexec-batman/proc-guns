@@ -1,10 +1,10 @@
 from enum import Enum
 class Quality(Enum):
-    BAD = 1
-    NORMAL = 2
-    GOOD = 3
-    GREAT = 4
-    SUPER = 5
+    bad = 1
+    normal = 2
+    good = 3
+    great = 4
+    super = 5
     
 class Manufacturer(Enum):
     ANTILLES = 1
