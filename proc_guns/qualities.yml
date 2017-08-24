@@ -1,0 +1,25 @@
+-
+ tier: bad
+ modifiers: {
+  damage: 0.50,
+ } 
+-
+ tier: normal
+ modifiers: {
+  damage: 1.00,
+ }
+-
+ tier: good
+ modifiers: {
+  damage: 1.25,
+ }
+-
+ tier: great
+ modifiers: {
+  damage: 1.50,
+ }
+-
+ tier: super
+ modifiers: {
+  damage: 1.75,
+ } 
