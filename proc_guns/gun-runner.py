@@ -9,6 +9,7 @@ BASE_FIRE_RATE = 2.0 #bullets per second
 BASE_RELOAD_TIME = 3.0 #seconds per reload
 
 makers = yaml.load(open("makers.yml"))
+guntypes = yaml.load(open("guntypes.yml"))
 
 manufacturer = random.choice(makers)
 quality_id = random.choice(list(enums.Quality)).name

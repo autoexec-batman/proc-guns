@@ -1,0 +1,24 @@
+-
+ name: Sniper Rifle
+ base_stats: {
+  bullet_damage: 30,
+  magazine_size: 5,
+  fire_rate: 0.5,
+  reload_time: 5.0
+ }
+-
+ name: Assault Rifle
+ base_stats: {
+  bullet_damage: 10,
+  magazine_size: 30,
+  fire_rate: 10.0,
+  reload_time: 3.0
+ }
+-
+ name: Sub-Machine Gun
+ base_stats: {
+  bullet_damage: 5,
+  magazine_size: 20,
+  fire_rate: 20.0,
+  reload_time: 2.5
+ }
