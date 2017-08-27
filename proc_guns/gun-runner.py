@@ -15,8 +15,6 @@ makers = yaml.load(open("makers.yml"))
 guntypes = yaml.load(open("guntypes.yml"))
 qualities = yaml.load(open("qualities.yml"))
 
-weighted_choice(qualities)
-
 manufacturer = random.choice(makers)
 guntype = random.choice(guntypes)
 quality = weighted_choice(qualities)
