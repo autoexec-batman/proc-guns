@@ -1,29 +1,29 @@
 -
- tier: bad
+ name: bad
  weight: 1
  modifiers: {
   damage: 0.50,
  } 
 -
- tier: normal
+ name: normal
  weight: 5
  modifiers: {
   damage: 1.00,
  }
 -
- tier: good
+ name: good
  weight: 4
  modifiers: {
   damage: 1.25,
  }
 -
- tier: great
+ name: great
  weight: 3
  modifiers: {
   damage: 1.50,
  }
 -
- tier: super
+ name: super
  weight: 2
  modifiers: {
   damage: 1.75,
