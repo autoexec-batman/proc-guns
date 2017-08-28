@@ -14,7 +14,7 @@
   reload_time: 0.90,
   nice_chance: 1.10,
   nice_multiplier: 1.00,
- }
+}
 -
  name: Beus
  qualities: {
@@ -28,7 +28,7 @@
   damage: 1.10,
   mag_size: 0.90,
   fire_rate: 1.00,
-  reload_time: 1.10
+  reload_time: 1.10,
   nice_chance: 0.90,
   nice_multiplier: 1.20
  }
@@ -46,7 +46,7 @@
   damage: 0.80,
   mag_size: 1.00,
   fire_rate: 1.20,
-  reload_time: 1.00
+  reload_time: 1.00,
   nice_chance: 1.00,
   nice_multiplier: 1.00
  }
@@ -63,7 +63,7 @@
   damage: 1.20,
   mag_size: 1.00,
   fire_rate: 0.80,
-  reload_time: 1.00
+  reload_time: 1.00,
   nice_chance: 0.80,
   nice_multiplier: 1.30
  }
@@ -80,7 +80,7 @@
   damage: 1.00,
   mag_size: 0.70,
   fire_rate: 1.00,
-  reload_time: 0.70
+  reload_time: 0.70,
   nice_chance: 2.00,
   nice_multiplier: 0.50
  } 
@@ -97,7 +97,7 @@
   damage: 1.00,
   mag_size: 1.30,
   fire_rate: 1.30,
-  reload_time: 1.00
+  reload_time: 1.00,
   nice_chance: 1.05,
   nice_multiplier: 0.95
  } 
