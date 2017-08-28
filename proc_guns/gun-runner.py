@@ -21,7 +21,10 @@ quality = weighted_choice(qualities)
 
 chome = Gun(guntype, manufacturer, quality)
 display_name = "{0} {1} {2}".format((chome.manufacturer['qualities'][chome.quality["name"]]), chome.manufacturer["name"], chome.guntype["name"])
+nice_damage = chome.damage + (chome.damage * chome.nice_multiplier)
 
+
+print
 print (display_name)
 print ("Damage per bullet: ", chome.damage)
 print ("Bullets per magazine: ", chome.magazine_size)
@@ -29,4 +32,4 @@ print ("Bullets fired per second: ", chome.fire_rate)
 print ("Seconds per magazine change :", chome.reload_time)
 print ("Chance of Nice! shot: ", chome.nice_chance)
 print ("Nice! shot damage multiplier: ", chome.nice_multiplier)
-print ("Nice! shot damage: ", chome.damage + (chome.damage * chome.nice_multiplier))
+print ("Nice! shot damage: ", nice_damage)
