@@ -9,8 +9,12 @@ class Gun:
         base_magazine_size = guntype['base_stats']['magazine_size'] * manufacturer['modifiers']['mag_size']
         base_fire_rate = guntype['base_stats']['fire_rate'] * manufacturer['modifiers']['fire_rate']
         base_reload_time = guntype['base_stats']['reload_time'] *  manufacturer['modifiers']['reload_time']
+        base_nice_chance = guntype['base_stats']['nice_chance'] * manufacturer['modifiers']['nice_chance']
+        base_nice_multiplier = guntype['base_stats']['nice_multiplier'] * manufacturer['modifiers']['nice_multiplier']
 		
         self.damage = int(base_damage)
         self.magazine_size = int(base_magazine_size)
         self.fire_rate = base_fire_rate 
-        self.reload_time = base_reload_time        
+        self.reload_time = base_reload_time
+        self.nice_chance = base_nice_chance
+        self.nice_multiplier = base_nice_multiplier
