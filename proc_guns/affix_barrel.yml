@@ -1,35 +1,78 @@
 -
  slot: prefix
- effect: Improved Damage
+ effect_name: percent_extra_damage
+ effect_text: Improved Damage
  weight: 1
  tiers:
  - weight: 1
    name: Baron's
-   modifiers: {
-    damage_min: 1.01,
-    damage_max: 1.05,
-   }
+   min: 1.01
+   max: 1.10
  - weight: 1
    name: Viscount's
-   modifiers: {
-    damage_min: 1.06,
-    damage_max: 1.10,
-   }
+   min: 1.11
+   max: 1.19
  - weight: 1
    name: Earl's
-   modifiers: {
-    damage_min: 1.11,
-    damage_max: 1.15,
-   }
+   min: 1.20
+   max: 1.29
  - weight: 1
    name: Marquis'
-   modifiers: {
-    damage_min: 1.16,
-    damage_max: 1.20,
-   }
+   min: 1.30
+   max: 1.39
  - weight: 1
    name: Duke's
-   modifiers: {
-    damage_min: 1.21,
-    damage_max: 1.25
-  }
+   min: 1.40
+   max: 1.49
+-
+ slot: prefix
+ effect_name: percent_extra_nice_multiplier
+ effect_text: Increased Nice! Multiplier
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Adept's
+   min: 1.01
+   max: 1.05
+ - weight: 1
+   name: Hedge Wizard's
+   min: 1.06
+   max: 1.10
+ - weight: 1
+   name: Wizard's
+   min: 1.11
+   max: 1.15
+ - weight: 1
+   name: High Wizard's
+   min: 1.16
+   max: 1.20
+ - weight: 1
+   name: Archwizard's
+   min: 1.21
+   max: 1.24
+-
+ slot: infix
+ effect_name: raw_extra_nice_multiplier
+ effect_text: Enhanced Nice! Multiplier 
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Beer-League
+   min: 0.01
+   max: 0.02
+ - weight: 1
+   name: Bush-League
+   min: 0.03
+   max: 0.04
+ - weight: 1
+   name: Independent-League
+   min: 0.05
+   max: 0.06
+ - weight: 1
+   name: Minor-League
+   min: 0.07
+   max: 0.08
+ - weight: 1
+   name: Major-League
+   min: 0.09
+   max: 0.10   
