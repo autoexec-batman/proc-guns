@@ -1,0 +1,156 @@
+-
+ slot: prefix
+ effect_name: raw_extra_nice_chance
+ effect_text: Enhanced Nice! Chance
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Weekend Warrior's
+   min: 0.01
+   max: 0.02
+ - weight: 1
+   name: Soldier's
+   min: 0.03
+   max: 0.04
+ - weight: 1
+   name: Crack Shot's
+   min: 0.05
+   max: 0.06
+ - weight: 1
+   name: Marksman's
+   min: 0.07
+   max: 0.08
+ - weight: 1
+   name: Sniper's
+   min: 0.09
+   max: 0.10
+-
+ slot: prefix
+ effect_name: percent_extra_nice_chance
+ effect_text: Increased Nice! Chance
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Expert's
+   min: 1.01
+   max: 1.05
+ - weight: 1
+   name: Veteran's
+   min: 1.06
+   max: 1.10
+ - weight: 1
+   name: Elite's
+   min: 1.11
+   max: 1.15
+ - weight: 1
+   name: Master's
+   min: 1.16
+   max: 1.20
+ - weight: 1
+   name: Grandmaster's
+   min: 1.21
+   max: 1.24
+-
+ slot: infix
+ effect_name: raw_extra_nice_multiplier
+ effect_text: Enhanced Nice! Multiplier 
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Enthusiastic
+   min: 0.01
+   max: 0.02
+ - weight: 1
+   name: Jostled
+   min: 0.03
+   max: 0.04
+ - weight: 1
+   name: Excited
+   min: 0.05
+   max: 0.06
+ - weight: 1
+   name: Agitated
+   min: 0.07
+   max: 0.08
+ - weight: 1
+   name: Fanatic
+   min: 0.09
+   max: 0.10
+-
+ slot: infix
+ effect_name: percent_extra_nice_multiplier
+ effect_text: Increased Nice! Multiplier
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Sighting
+   min: 1.01
+   max: 1.10
+ - weight: 1
+   name: Visualizing
+   min: 1.11
+   max: 1.19
+ - weight: 1
+   name: Raytracing
+   min: 1.20
+   max: 1.29
+ - weight: 1
+   name: Image-Enhancing
+   min: 1.30
+   max: 1.39
+ - weight: 1
+   name: Superocularizing
+   min: 1.40
+   max: 1.49
+-
+ slot: suffix
+ effect_name: percent_extra_nice_chance
+ effect_text: Increased Nice! Chance
+ weight: 1
+ tiers:
+ - weight: 1
+   name: of the Owl
+   min: 1.01
+   max: 1.05
+ - weight: 1
+   name: of the Hawk
+   min: 1.06
+   max: 1.10
+ - weight: 1
+   name: of the Osprey
+   min: 1.11
+   max: 1.15
+ - weight: 1
+   name: of the Falcon
+   min: 1.16
+   max: 1.20
+ - weight: 1
+   name: of the Eagle
+   min: 1.21
+   max: 1.24
+-
+ slot: suffix
+ effect_name: raw_extra_nice_multiplier
+ effect_text: Enhanced Nice! Multiplier 
+ weight: 1
+ tiers:
+ - weight: 1
+   name: of the Dog
+   min: 0.01
+   max: 0.02
+ - weight: 1
+   name: of the Jackal
+   min: 0.03
+   max: 0.04
+ - weight: 1
+   name: of the Wolf
+   min: 0.05
+   max: 0.06
+ - weight: 1
+   name: of the Coyote
+   min: 0.07
+   max: 0.08
+ - weight: 1
+   name: of the Dire Wolf
+   min: 0.09
+   max: 0.10
