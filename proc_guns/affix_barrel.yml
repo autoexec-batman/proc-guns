@@ -1,0 +1,35 @@
+-
+ slot: prefix
+ effect: Improved Damage
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Baron's
+   modifiers: {
+    damage_min: 1.01,
+    damage_max: 1.05,
+   }
+ - weight: 1
+   name: Viscount's
+   modifiers: {
+    damage_min: 1.06,
+    damage_max: 1.10,
+   }
+ - weight: 1
+   name: Earl's
+   modifiers: {
+    damage_min: 1.11,
+    damage_max: 1.15,
+   }
+ - weight: 1
+   name: Marquis'
+   modifiers: {
+    damage_min: 1.16,
+    damage_max: 1.20,
+   }
+ - weight: 1
+   name: Duke's
+   modifiers: {
+    damage_min: 1.21,
+    damage_max: 1.25
+  }
