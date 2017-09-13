@@ -2,8 +2,7 @@ from gun import Gun
 import random
 import yaml
 import helpers
-  
-    
+      
 makers = yaml.load(open("makers.yml"))
 guntypes = yaml.load(open("guntypes.yml"))
 qualities = yaml.load(open("qualities.yml"))
@@ -35,3 +34,5 @@ print ("Average damage per shot: ", expected_damage)
 print ("Average damage per magazine: ", damage_per_mag)
 print ("Seconds to magdump: ", time_to_magdump)
 print ("Average DPS per magdump: ", DPS_per_mag)
+print ("")
+print (chome.gun_affixes)
