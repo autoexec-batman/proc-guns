@@ -24,7 +24,6 @@ class Gun:
         for i in range(0,part_count):
          current_part = available_parts.pop()
          current_slot = available_slots.pop()
-         print (current_part, current_slot)
          gun_affixes.append(affixes.select(current_part, current_slot))
 		
 		
