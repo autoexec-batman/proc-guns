@@ -26,7 +26,17 @@ class Gun:
          current_slot = available_slots.pop()
          gun_affixes.append(affixes.select(current_part, current_slot))
 		
+        prefix = ""
+        infix = ""
+        suffix = ""
 		
+        for affix in gun_affixes:
+         if affix['slot'] == 'prefix':
+          prefix = affix['name']
+         if affix['slot'] == 'infix':
+          infix = affix['name']
+         if affix['slot'] == 'suffix':
+          suffix = affix['name']		  
 		
         self.damage = int(base_damage)
         self.magazine_size = int(base_magazine_size)
@@ -35,3 +45,4 @@ class Gun:
         self.nice_chance = base_nice_chance
         self.nice_multiplier = base_nice_multiplier
         self.gun_affixes = gun_affixes
+        self.display_name = "{0} {1} {2} {3} {4}".format(prefix, manufacturer['qualities'][quality['name']], infix, guntype['name'], suffix)
