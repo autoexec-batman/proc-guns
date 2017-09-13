@@ -45,4 +45,5 @@ class Gun:
         self.nice_chance = base_nice_chance
         self.nice_multiplier = base_nice_multiplier
         self.gun_affixes = gun_affixes
-        self.display_name = "{0} {1} {2} {3} {4}".format(prefix, manufacturer['qualities'][quality['name']], infix, guntype['name'], suffix)
+        display_name = "{0} {1} {2} {3} {4}".format(prefix, manufacturer['qualities'][quality['name']], infix, guntype['name'], suffix)
+        self.display_name = ' '.join(display_name.split()) #eliminates extra spaces from missing affixes
