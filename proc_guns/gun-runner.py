@@ -1,15 +1,8 @@
 from gun import Gun
 import random
 import yaml
-
-def weighted_choice(list):
-    weighted_list = []
-    for weighted_item in list:
-        for i in range(weighted_item["weight"]):
-            weighted_list.append(weighted_item)
-    #print (weighted_list)
-    return random.choice(weighted_list)
-    
+import helpers
+  
     
 makers = yaml.load(open("makers.yml"))
 guntypes = yaml.load(open("guntypes.yml"))
@@ -17,7 +10,7 @@ qualities = yaml.load(open("qualities.yml"))
 
 manufacturer = random.choice(makers)
 guntype = random.choice(guntypes)
-quality = weighted_choice(qualities)
+quality = helpers.weighted_choice(qualities)
 
 chome = Gun(guntype, manufacturer, quality)
 
