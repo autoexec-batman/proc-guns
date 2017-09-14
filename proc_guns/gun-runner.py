@@ -19,6 +19,9 @@ time_to_magdump = chome.magazine_size / chome.fire_rate
 damage_per_mag = expected_damage * chome.magazine_size
 DPS_per_mag = damage_per_mag / time_to_magdump
 
+percent_affix_format = "{0:.2f}% {1}"
+raw_affix_format = "{0:d} {1}"
+
 print ("")
 print (chome.display_name)
 print ("Manufacturer: ", chome.manufacturer['name'])
