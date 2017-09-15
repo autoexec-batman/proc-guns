@@ -47,15 +47,14 @@ class Gun:
         infix = ""
         suffix = ""
         self.raw_affix_text_data = []
-		self.percent_affix_text_data = []
-        affix_text_lines =[]
-                
-        
+        self.percent_affix_text_data = []
+                     
         
         for affix in gun_affixes:
+         print (affix['effect_name'])
          if affix['effect_name'] in raw_affix_modifiers:
           raw_affix_modifiers[affix['effect_name']] +=  affix['roll']
-          self.raw_affix_text_data.append((affix['effect_text'}, affix['roll'])
+          self.raw_affix_text_data.append((affix['effect_text'], affix['roll'])
          if affix['effect_name'] in percent_affix_modifiers:
           percent_affix_modifiers[affix['effect_name']] *= affix['roll']
           self.percent_affix_text_data.append((affix['effect_text'], affix['roll']))
@@ -65,8 +64,7 @@ class Gun:
           infix = affix['name']
          if affix['slot'] == 'suffix':
           suffix = affix['name']
-                  
-
+                
         self.damage = int((base_damage + raw_affix_modifiers['raw_extra_damage']) * percent_affix_modifiers['percent_extra_damage'])
         self.magazine_size = int((base_magazine_size + raw_affix_modifiers['raw_extra_magazine_size']) * percent_affix_modifiers['percent_extra_magazine_size'])
         self.fire_rate = (base_fire_rate + raw_affix_modifiers['raw_extra_fire_rate']) * percent_affix_modifiers['percent_extra_fire_rate']
