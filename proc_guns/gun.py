@@ -54,7 +54,7 @@ class Gun:
          print (affix['effect_name'])
          if affix['effect_name'] in raw_affix_modifiers:
           raw_affix_modifiers[affix['effect_name']] +=  affix['roll']
-          self.raw_affix_text_data.append((affix['effect_text'], affix['roll'])
+          self.raw_affix_text_data.append((affix['effect_text'], affix['roll']))
          if affix['effect_name'] in percent_affix_modifiers:
           percent_affix_modifiers[affix['effect_name']] *= affix['roll']
           self.percent_affix_text_data.append((affix['effect_text'], affix['roll']))
