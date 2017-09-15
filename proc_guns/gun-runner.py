@@ -20,7 +20,7 @@ damage_per_mag = expected_damage * chome.magazine_size
 DPS_per_mag = damage_per_mag / time_to_magdump
 
 percent_affix_format = "{0:.2f}% {1}"
-raw_affix_format = "{0:d} {1}"
+raw_affix_format = "{0:.2f} {1}"
 
 print ("")
 print (chome.display_name)
@@ -39,7 +39,7 @@ print ("Seconds to magdump: ", time_to_magdump)
 print ("Average DPS per magdump: ", DPS_per_mag)
 print ("")
 for affix in chome.percent_affix_text_data:
- print (percent_affix_format.format((affix[1]-1 * 100),affix[0]))
+ print (percent_affix_format.format(((affix[1]-1) * 100),affix[0]))
 for affix in chome.raw_affix_text_data:
  print (raw_affix_format.format(affix[1],affix[0]))
 
