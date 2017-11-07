@@ -51,6 +51,32 @@
    min: 1.21
    max: 1.24
 -
+ slot: prefix
+ effect_name: percent_extra_weird_damage
+ effext_text: Percent Additional Weird Damage
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Unusual
+   min: 0.05
+   max: 0.14
+ - weight: 1
+   name: Odd
+   min: 0.15
+   max: 0.24
+ - weight: 1
+   name: Strange
+   min: 0.25
+   max: 0.34
+ - weight: 1
+   name: Occult
+   min: 0.35
+   max: 0.44
+ - weight: 1
+   name: Forbidden
+   min: 0.45
+   max: 0.55
+-
  slot: infix
  effect_name: raw_extra_nice_multiplier
  effect_text: Enhanced Nice! Multiplier 
@@ -103,6 +129,32 @@
    min: 1.40
    max: 1.49
 -
+ slot: infix
+ effect_name: percent_extra_cyber_damage
+ effect_text: Percent Additional Cyber Damage
+ weight: 1
+ tiers:
+ - weight: 1
+   name: Decoding
+   min: 0.05
+   max: 0.14
+ - weight: 1
+   name: Decrypting
+   min: 0.15
+   max: 0.24
+ - weight: 1
+   name: Deduplicating
+   min: 0.25
+   max: 0.34
+ - weight: 1
+   name: Deleting
+   min: 0.35
+   max: 0.44
+ - weight: 1
+   name: Degaussing
+   min: 0.45
+   max: 0.55 
+-
  slot: suffix
  effect_name: percent_extra_nice_multiplier
  effect_text: Increased Nice! Multiplier
@@ -154,3 +206,29 @@
    name: of the Razorback
    min: 0.09
    max: 0.10
+-
+ slot: suffix
+ effect_name: percent_extra_organic_damage
+ effect_text: Percent Extra Organic Damage
+ weight: 1
+ tiers:
+ - weight: 1
+   name: of Ammonium
+   min: 0.05
+   max: 0.14
+ - weight: 1
+   name: of Carbolyxic Acid
+   min: 0.15
+   max: 0.24
+ - weight: 1
+   name: Isocyanide
+   min: 0.25
+   max: 0.34
+ - weight: 1
+   name: Peroxide
+   min: 0.35
+   max: 0.44
+ - weight: 1
+   name: Hydrazine
+   min: 0.45
+   max: 0.55 
